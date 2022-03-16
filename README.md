@@ -31,8 +31,8 @@ You can set aws credentials directly as environtment variable.
 - Service Account
 
 Service account is a object kubernetes that provides an identity for processes that run in a Pod. It's injected a token and role arn inside pod and SDM get aws credentials using Default Provider Chain from aws sdk.
+
 Service account can be configurate in service-account.yaml https://github.azc.ext.hp.com/sdm/sdm/blob/009e4de762966818c99481f46e3281d3a9ef1c24/build/k8s/06_service-account.yaml
 
 
 > **Note:** For Autly, Environtment Variable and Service Account, make sure the environment is not set in CWP_SDM_ALLOWED_ENVIRONMENTS_AWS_CREDENTIAL_FROM_VAULT environment variable
-between `${VARIABLE_NAME}`.
