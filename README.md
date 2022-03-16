@@ -11,11 +11,13 @@ AWS credentials can be set some of this options below:
 To use Vault to get aws credentials, add the environment in CWP_SDM_ALLOWED_ENVIRONMENTS_AWS_CREDENTIAL_FROM_VAULT environment variable. If set, Vault is priority to get credentials, otherwise, SDM will try to get credentials from other providers.
 
 
+
 - Authly
 
 You can use Authly to set aws credentials. Developer role is required.
 
 If you are using authly to run SDM locally and aws token expired, you need to renew the token and restart the application.
+
 
 
 - Environtment variable
@@ -27,6 +29,7 @@ You can set aws credentials directly as environtment variable.
 |:--------------------:|-------------|
 | **AWS_ACCESS_KEY** | The AWS app key. |
 | **AWS_SECRET_KEY** | The AWS secret key. |
+
 
 
 - Service Account
