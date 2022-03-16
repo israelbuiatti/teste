@@ -14,6 +14,7 @@ To use Vault to get aws credentials, add the environment in CWP_SDM_ALLOWED_ENVI
 - Authly
 
 You can use Authly to set aws credentials. Developer role is required.
+
 If you are using authly to run SDM locally and aws token expired, you need to renew the token and restart the application.
 
 
